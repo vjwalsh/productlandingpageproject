@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/d9941f6443.js" crossorigin="anonymous"></script>
+  <title>Product landing page</title>
+</head>
+
+<body>
+
+  <section id="title">
+    <header class="header">
+
+      <nav id="nav-bar" class="navbar">
+        <div class="logo">
+
+          <img src="images/cake.png" alt="" id="header-img" class="logo-image">
+          <h1 class="logo-text">Cake Club</h1>
+        </div>
+
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#how-it-works">How it works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="colored-section">
+      <h2 class="title-text">Everything you need to bake beautiful creations, delivered straight to your door</h2>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input type="email" name="email" id="email" placeholder="Enter your email address" class="email-field" required><br />
+        <input type="submit" id="submit" class="button" value="Get started">
+      </form>
+    </div>
+
+  </section>
+
+  <section id="features" class="light-section">
+    <div class="features-row">
+      <img src="images/ingredients.png" alt="Ingredient icon" class="icon">
+      <h3 class="feature-head">Premium ingredients</h3>
+      <p>Boxes are filled with hand-selected ingredients from our trusted suppliers. We provide the exact quantities required for your recipes to avoid waste and use completely sustainable packaging.</p>
+    </div>
+
+    <div class="features-row">
+      <img src="images/equipment.png" alt="Equipment icon" class="icon">
+      <h3 class="feature-head">Bespoke equipment</h3>
+      <p>Each box contains a tool, accessory or piece of equipment to help you make your best creations. Already have some equipment at home? Just fill in the checklist in your account to let us know, and we'll make sure we don't send you something
+        you already own. </p>
+    </div>
+
+    <div class="features-row">
+      <img src="images/recipe.png" alt="Recipe icon" class="icon">
+      <h3 class="feature-head">Unique recipes</h3>
+      <p>Each box contains three original, creative recipes written by our team of expert bakers. Our recipe library covers every taste and dietary requirement - sweet, savoury, vegan, gluten free and many, many more. Fill in your personal taste
+        profile and we'll send recipes that match your preferences. </p>
+    </div>
+  </section>
+
+  <section id="how-it-works" class="colored-section">
+    <h2 class="subheading">How it works</h2>
+    <div class="hiw-container">
+      <div class="square">
+        <div class="number">1</div>
+        <div class="hiw-text">Select a plan</div>
+      </div>
+      <div class="square">
+        <div class="number">2</div>
+        <div class="hiw-text">Tell us your preferences</div>
+      </div>
+      <div class="square">
+        <div class="number">3</div>
+        <div class="hiw-text">Set first delivery date</div>
+      </div>
+      <div class="square">
+        <div class="number">4</div>
+        <div class="hiw-text">Bake!</div>
+      </div>
+    </div>
+    <p class="gift-text">Looking for a gift? <a href="#">Click here</a> to see how you can tailor our packages to create the perfect present</p>
+
+    <!-- video required to pass freeCodeCamp test
+      <video controls id="video">
+        <source src="https://www.youtube.com/watch?v=FzzUVvGBTO8&ab_channel=Tasty" type="video /ogg">
+        <source src="https://www.youtube.com/watch?v=FzzUVvGBTO8&ab_channel=Tasty" type="video /mpg">
+        Your browser does not support the video element. Kindly update it to latest version.
+      </video> -->
+
+  </section>
+
+  <section id="pricing" class="pricing">
+    <h2 class="subheading">Plans and pricing</h2>
+    <div class="pricing-card-container">
+      <div class="pricing-card">
+        <div class="card-head">Occasional</div>
+        <hr class="card-rule" />
+        <div class="card-subhead">£20/month</div>
+        <ul class="card-list">
+          <li class="list-item">Lorem ipsum</li>
+          <li class="list-item">Lorem ipsum</li>
+          <li class="list-item">Lorem ipsum dolor</li>
+          <li class="list-item">Lorem ipsum</li>
+        </ul>
+        <button class="button">Select</button>
+      </div>
+      <div class="pricing-card">
+        <div class="card-head">Regular</div>
+        <hr class="card-rule" />
+        <div class="card-subhead">£35/month</div>
+        <ul class="card-list">
+          <li class="list-item">Lorem ipsum</li>
+          <li class="list-item">Lorem ipsum</li>
+          <li class="list-item">Lorem ipsum dolor</li>
+          <li class="list-item">Lorem ipsum</li>
+        </ul>
+        <button class="button">Select</button>
+      </div>
+      <div class="pricing-card">
+        <div class="card-head">Frequent</div>
+        <hr class="card-rule" />
+        <div class="card-subhead">£50/month</div>
+        <ul class="card-list">
+          <li class="list-item">Lorem ipsum</li>
+          <li class="list-item">Lorem ipsum</li>
+          <li class="list-item">Lorem ipsum dolor</li>
+          <li class="list-item">Lorem ipsum</li>
+        </ul>
+        <button class="button">Select</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <i class="social-icon fab fa-twitter"></i>
+    <i class="social-icon fab fa-facebook-f"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fas fa-envelope"></i>
+    <p class="credit">Icons made by <a href="https://www.flaticon.com/authors/creaticca-creative-agency" title="Creaticca Creative Agency">Creaticca Creative Agency</a> and <a href="https://www.flaticon.com/authors/freepik"
+        title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+
+  </footer>
+
+</body>
+
+</html>
